@@ -7,6 +7,6 @@ out of home chat
 - location : country
 - langue and date and time (languages) menu
 - boule de crystal hologramme chat in the region
-- travel like a band worls tour 
+- travel like a band worlds tour like a musician gossip
 
 - crystall ball, to body scan with musical instrument, réponse oui ou non
