@@ -1,52 +1,48 @@
+{% extends 'base.html' %}
+
+{% block montitre %}
+debut de mes mots: bienvenue
+{% endblock %}
+{% block content %}
 <h1># out-of-home-chat</h1>
-<p>
-liste ici la liste des artists sur des affiches out of home de la  ville
-<textarea>
-</textarea>
+{% for x in users | reverse %}
+ <li>{{ x["first_name"]  }}</li>
 
-</p>
-<p>
-liste ici la liste des villes du musical tour
-<textarea>
-</textarea>
+{% endfor %} 
+fin de mes mots : ✨ Out-of-Home Chat — The Crystal Ball Tour ✨
 
-</p>
-<p>
-liste ici la liste des morceaux de la tournée
-<textarea>
-</textarea>
+Imagine a chat that’s not just a conversation, but a world tour — part social experiment, part musical odyssey, part digital legend.
 
-</p>
-<p>
-liste ici les infos persos sur toi que tu vas publier ou non sur internet 
-<textarea>
-</textarea>
+🎭 The Story
 
-</p>
-<p>
-nom du pays de la tournée
-<textarea>
-</textarea>
+A group of mysterious artists, known only as The Crystal Frequencies, roam from city to city. Their stage centerpiece? A shimmering holographic crystal ball that scans the audience like a body-reading instrument, answering yes or no to whispered questions about the future.
 
-</p>
-<p>
-nom du groupe de musique
-<textarea>
-</textarea>
+🎶 The Music
 
-</p>
-<p>
-souhaitez vous creer un hologramme par personne qui sera sur les affiches
-<input type="checkbox"/>
+    Pop-Classic Fusion: Strings meet synths, piano meets pulsating beats.
 
-</p>
-<p>
-souhaitez vous realiser un scan du corps pour chaque personne pour connaitre une reponse par une boule de crystal par un/e voyant/e
-<input type="checkbox"/>
+    Each city inspires a new track — Paris gets a romantic waltz, Tokyo a neon electro-ballad, Rio a samba-infused anthem.
 
-</p>
-<p>
-souhaitez vous ouvrir un chat entre les personnes sur les affiches
-<input type="checkbox"/>
+    Every performance is improvised based on the “energy” the crystal ball reads from the crowd.
 
-</p>
+🌍 The Tour
+
+    Digital Identity: Sometimes they appear as hyper-polished celebrities, other times as anonymous street performers.
+
+    Languages & Time Zones: The setlist changes with the local language, date, and even the hour of the show.
+
+    Gossip Factor: Rumors swirl — are they fortune tellers, hackers, or just musicians with a flair for drama?
+
+🔮 The Experience
+
+You step up to the crystal ball.
+
+It hums, lights swirl, and a note plays — high for yes, low for no.
+
+The answer is yours… but the meaning? That’s for you to decide.
+
+If you’d like, I can design a mock “tour poster” for this fictional band so it feels like a real-world event.
+{% endblock %}
+{% block liens %}
+<a href="/">welcome</a>
+{% endblock %}
